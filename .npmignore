@@ -1,0 +1,49 @@
+# Prevent sensitive files from being published to npm
+
+# Config files with potential secrets
+.mcp.json
+.env
+.env.*
+
+# IDE and editor files
+.claude/
+.gemini/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Source files (only ship compiled build/)
+src/
+tsconfig.json
+
+# Tests and development files
+tests/
+*.test.ts
+*.spec.ts
+
+# Documentation (keep README.md)
+CLAUDE.md
+IMPLEMENTATION-COMPLETE.md
+LAUNCH-STATUS.md
+FINAL_TESTING_REPORT.md
+VALIDATION-RESULTS.md
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+
+# Build artifacts that shouldn't be published
+*.tsbuildinfo

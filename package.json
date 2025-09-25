@@ -1,0 +1,60 @@
+{
+  "name": "evm-chains-mcp-server",
+  "version": "1.0.0",
+  "description": "The most comprehensive EVM MCP server - 108 tools across 7 chains with complete DeFi suite",
+  "type": "module",
+  "bin": {
+    "evm-chains-mcp-server": "./build/index.js"
+  },
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "prepare": "npm run build",
+    "inspect": "npx @modelcontextprotocol/inspector node build/index.js",
+    "test": "cd tests/automated && NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "cd tests/automated && NODE_OPTIONS=--experimental-vm-modules jest --watch",
+    "test:coverage": "cd tests/automated && NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+    "test:unit": "cd tests/automated && NODE_OPTIONS=--experimental-vm-modules jest --testPathPattern=unit",
+    "test:integration": "cd tests/automated && NODE_OPTIONS=--experimental-vm-modules jest --testPathPattern=integration",
+    "test:ci": "cd tests/automated && NODE_OPTIONS=--experimental-vm-modules jest --ci --coverage --maxWorkers=2 --testPathPattern=unit"
+  },
+  "keywords": [
+    "mcp",
+    "ethereum",
+    "polygon",
+    "avalanche",
+    "bsc",
+    "arbitrum",
+    "base",
+    "worldchain",
+    "evm",
+    "blockchain",
+    "defi",
+    "nft",
+    "web3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "axios": "^1.6.0",
+    "ethers": "^6.13.0",
+    "form-data": "^4.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^22.0.0",
+    "jest": "^29.7.0",
+    "solc": "^0.8.30",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  }
+}
